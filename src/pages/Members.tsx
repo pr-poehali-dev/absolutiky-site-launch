@@ -3,28 +3,36 @@ import Footer from "@/components/Footer";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-// Временные данные для примера
+// Данные участников клана
 const members = [
   {
     id: 1,
-    name: "[ABS] Absolute",
+    name: "[ABS] Absolutely Глава",
     role: "Основатель и лидер",
     level: 65,
     kd: 2.8,
-    avatar: "/placeholder.svg"
+    avatar: "https://cdn.poehali.dev/files/ede9a40b-4bd4-43cb-acf7-2d99b5f9868d.jpg"
   },
   {
     id: 2,
-    name: "[ABS] Shadow",
+    name: "[ABS] Absolutely-Глав-Зам",
     role: "Заместитель",
+    level: 61,
+    kd: 2.6,
+    avatar: "https://cdn.poehali.dev/files/ede9a40b-4bd4-43cb-acf7-2d99b5f9868d.jpg"
+  },
+  {
+    id: 3,
+    name: "[ABS] Shadow",
+    role: "Снайпер",
     level: 58,
     kd: 2.3,
     avatar: "/placeholder.svg"
   },
   {
-    id: 3,
+    id: 4,
     name: "[ABS] Sniper",
-    role: "Снайпер",
+    role: "Штурмовик",
     level: 51,
     kd: 2.1,
     avatar: "/placeholder.svg"
