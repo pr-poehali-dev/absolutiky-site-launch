@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -51,6 +51,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				absolutiky: {
+					DEFAULT: '#dc2626', // красный
+					dark: '#991b1b',    // темно-красный
+					light: '#fecaca',   // светло-красный
+					accent: '#f87171'   // акцентный красный
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
